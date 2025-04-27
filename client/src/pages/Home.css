@@ -1,0 +1,84 @@
+/* General Layout */
+.home-container {
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    max-width: 1200px;
+}
+
+/* Banner Styles */
+.banner {
+    background: linear-gradient(to right, #4F46E5, #9333EA);
+    border-radius: 1rem;
+    padding: 2rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.banner-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.banner-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.browse-button {
+    background-color: white;
+    color: #4F46E5;
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.browse-button:hover {
+    background-color: #E5E7EB;
+}
+
+/* Upcoming Events */
+.events-section {
+    margin-bottom: 3rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+/* Categories Section */
+.categories-section {
+    margin-top: 2rem;
+}
+
+.categories-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+
+.category-item {
+    background-color: #F3F4F6;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    color: #4B5563;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.category-item:hover {
+    background-color: #E5E7EB;
+}
